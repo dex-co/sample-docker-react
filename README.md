@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### CLI
+
+```
+aws elasticbeanstalk create-application --application-name sample-docker-react --version-label 1 --source-bundle S3Bucket=<bucket>,S3Key=<key>
+```
+
+```
