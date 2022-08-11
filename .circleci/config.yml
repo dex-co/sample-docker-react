@@ -1,3 +1,5 @@
+version: 2.1
+
 sudo: required 
 language: node_js
 node_js:
